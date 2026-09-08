@@ -116,7 +116,7 @@ I started the Kali virtual machine from VirtualBox.
 
 Kali successfully booted and displayed the Kali Linux desktop.
 
-![Kali Linux Running](screenshots/03-kali-linux-running.png)
+![Kali Linux Running](03-kali-linux-running.png)
 
 At this point, the basic virtual machine installation was complete.
 
@@ -133,7 +133,7 @@ IPv4 Prefix: 10.0.0.0/24
 DHCP: Enabled
 ```
 
-![NAT Network Configuration](screenshots/01-nat-network-configuration.png)
+![NAT Network Configuration](01-nat-network-configuration.png)
 
 ### Why did I use NAT Network?
 
@@ -165,7 +165,7 @@ NAT Network
 
 and selected the NAT Network that I had created.
 
-![Kali Network Adapter](screenshots/02-kali-network-adapter.png)
+![Kali Network Adapter](02-kali-network-adapter.png)
 
 This connected the Kali virtual machine to the virtual network.
 
@@ -265,7 +265,7 @@ The IPv4 settings were:
 | DNS Server     | `8.8.8.8`  |
 | Additional DNS | `10.0.0.1` |
 
-![Wired Connection Configuration](screenshots/04-wired-connection-configuration.png)
+![Wired Connection Configuration](04-wired-connection-configuration.png)
 
 At this stage, I learned the practical purpose of these settings.
 
@@ -299,7 +299,7 @@ ip addr
 
 This displays the available network interfaces and their IP addresses.
 
-![IP Address Verification](screenshots/05-ip-addr-verification.png)
+![IP Address Verification](05-ip-addr-verification.png)
 
 I used this command to check the network interface and verify the IP configuration of the Kali machine.
 
